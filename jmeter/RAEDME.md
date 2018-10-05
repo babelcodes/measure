@@ -3,7 +3,10 @@
 ## Concepts
 
 - A __Test Plan__ contains:
-   - __User Defined Variables__
+   - __User Defined Variables__ aka:
+      - `THREADS`: count of sessions opened during a period
+      - `RAMPUP`: the duration in seconds of this period
+      - `LOOP`: count of runs (total of threads = `THREADS` * `RAMPUP` * `LOOP`)
    - __Thread Group__ that defines:
       - Count of simultenous connections, by using _User Defined Variables_
       - _Samplers__ as __HTTP Request__ to test an URL
@@ -15,6 +18,10 @@
 ![Test Plan / Thread Group / Samplers / HTTP Request](images/jmeter-c-http-request.png)
 ![Test Plan / Listeners / Aggregate Report](images/jmeter-d-listeners-aggregate-report.png)
 ![Test Plan / Listeners / View Results in Table](images/jmeter-e-listeners-view-results-in-table.png)
+
+To define JSON data to send by `POST`:
+
+![Test Plan / Thread Group / HTTP Request / Config ELement / HTTP Header Manager](images/jmeter-f-http-header-manager.png)
 
 ## Resources
 
