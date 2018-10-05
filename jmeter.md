@@ -1,5 +1,16 @@
 # JMeter
 
+## Concepts
+
+- A __Test Plan__ contains:
+   - __User Defined Variables__
+   - __Thread Group__ that defines:
+      - Count of simultenous connections, by using _User Defined Variables_
+      - _Samplers__ as __HTTP Request__ to test an URL
+         - You can use slugs from files to customize URLS: `/${__StringFromFile(C://dev//spikes//jmeter//data//slugs.txt)}` in `Path` field. See [Apache JMeter - User's Manual: Functions and Variables](https://jmeter.apache.org/usermanual/functions.html#__StringFromFile)
+   - __Listeners__ as __Aggregate Report__ and __View Results in Table__ to see results / measures
+
+
 ## Resources
 
 - [Apache JMeter - User's Manual: Getting Started](https://jmeter.apache.org/usermanual/get-started.html)
