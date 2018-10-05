@@ -10,6 +10,11 @@
          - You can use slugs from files to customize URLS: `/${__StringFromFile(C://dev//spikes//jmeter//data//slugs.txt)}` in `Path` field. See [Apache JMeter - User's Manual: Functions and Variables](https://jmeter.apache.org/usermanual/functions.html#__StringFromFile)
    - __Listeners__ as __Aggregate Report__ and __View Results in Table__ to see results / measures
 
+![Test Plan](images/jmeter-a-test-plan.png)
+![Test Plan / Thread Group](images/jmeter-b-thread-group.png)
+![Test Plan / Thread Group / Samplers / HTTP Request](images/jmeter-c-http-request.png)
+![Test Plan / Listeners / Aggregate Report](images/jmeter-d-listeners-aggregate-report.png)
+![Test Plan / Listeners / View Results in Table](images/jmeter-e-listeners-view-results-in-table.png)
 
 ## Resources
 

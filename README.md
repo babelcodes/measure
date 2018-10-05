@@ -1,4 +1,4 @@
 # measure
 Load test functional behavior and measure performance like JMeter
 
-- [JMeter](jmeter.md)
+- [JMeter](jmeter/index.md)
