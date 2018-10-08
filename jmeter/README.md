@@ -5,7 +5,7 @@
 - A __Test Plan__ contains:
    - __User Defined Variables__ aka:
       - `THREADS`: count of sessions opened during a period
-      - `RAMPUP`: the duration in seconds of this period
+      - `RAMPUP`: the duration in seconds of this period (see [JMeter Ramp-Up - The Ultimate Guide | BlazeMeter](https://www.blazemeter.com/blog/jmeter-ramp-up-the-ultimate-guide) for more details)
       - `LOOP`: count of runs (total of threads = `THREADS` * `RAMPUP` * `LOOP`)
    - __Thread Group__ that defines:
       - Count of simultenous connections, by using _User Defined Variables_
