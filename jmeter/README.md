@@ -12,6 +12,7 @@
       - _Samplers__ as __HTTP Request__ to test an URL
          - You can use slugs from files to customize URLS: `/${__StringFromFile(C://dev//spikes//jmeter//data//slugs.txt)}` in `Path` field. See [Apache JMeter - User's Manual: Functions and Variables](https://jmeter.apache.org/usermanual/functions.html#__StringFromFile)
    - __Listeners__ as __Aggregate Report__ and __View Results in Table__ to see results / measures
+      - WARNING: define `Filename` before launching the campaign if you want to save data
 
 ![Test Plan](images/jmeter-a-test-plan.png)
 ![Test Plan / Thread Group](images/jmeter-b-thread-group.png)
